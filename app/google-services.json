@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "596205085611",
+    "firebase_url": "https://meal-management-c3c8e-default-rtdb.firebaseio.com",
+    "project_id": "meal-management-c3c8e",
+    "storage_bucket": "meal-management-c3c8e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596205085611:android:94c2d79567b1fbab5a28ee",
+        "android_client_info": {
+          "package_name": "com.tanzina.meal_management"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "596205085611-3skb6l8ph8gblgocav2gjhc6m6o5g7ae.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXwLFV_nWntAzgN41Poc524E-8TJ0qGGI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "596205085611-3skb6l8ph8gblgocav2gjhc6m6o5g7ae.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

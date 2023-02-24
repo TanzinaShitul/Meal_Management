@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_margin="30dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center"
+        android:text="Reset Password"
+        android:textAlignment="center"
+        android:textColor="@color/color1"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/forgotEmailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round3"
+        android:drawableStart="@drawable/ic_mail"
+        android:drawablePadding="15dp"
+        android:fontFamily="@font/poppins_regular"
+        android:foregroundTint="@color/colorWhitGray"
+        android:hint="@string/forgot_email"
+        android:inputType="textEmailAddress"
+        android:paddingStart="15dp"
+        android:paddingEnd="18dp"
+        android:textColor="@color/color1"
+        android:textColorHint="@color/color3"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/forgotButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/round_button"
+        android:text="Reset Password"
+        android:textColor="@android:color/white" />
+</LinearLayout>
